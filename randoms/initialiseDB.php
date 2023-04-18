@@ -7,7 +7,7 @@
 
 FILENAME: initialiseDB.php
 
-This code is solely for the purpose of constructing the acme door levers inventory database. */
+This code is solely for the purpose of  breaking my brain and constructing the acme door levers inventory database. */
 
 		//Connect to the database server using the syntax mysqli_connect(server, username, password)
 		$conn = @mysqli_connect("localhost:3306","root","");
