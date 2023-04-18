@@ -1,0 +1,448 @@
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/* Metakron Band Page Style Sheet */
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*author: Benjamin Roberts
+
+/* Central page elements */
+
+/*-----------------------------------------------------------------------------------*/
+
+html {
+  /* 1 */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple usage Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto usage Emoji";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  /* 2 */
+  /* -webkit-text-size-adjust: auto%; */
+  /* 3 */
+  background: #094c78;
+/* background: -moz-linear-gradient(-45deg, #144E75 0%, #FFFFFF 53%, #000000 100%); 
+background: -webkit-linear-gradient(-45deg, #144E75 0%, #FFFFFF 53%, #000000 100%);
+background: linear-gradient(135deg, #144E75 0%, #000000 100%); */
+	
+background-size: no-repeat;
+}
+
+
+body {
+	/* background-image: url("../images/code_album_cover.png"); */
+	background: #144E75;
+background: -moz-linear-gradient(-45deg, #144E75 0%, #FFFFFF 53%, #000000 100%);
+background: -webkit-linear-gradient(-45deg, #144E75 0%, #FFFFFF 53%, #000000 100%);
+background: linear-gradient(135deg, #144E75 0%, #000000 100%);
+	
+    background-size: 100%;
+    width: 100%;
+    /* height: 2000px; */
+    /*background-usage: yellow;*/
+    
+}
+
+			
+/* .container {
+	max-width: 100%; height: 100%; 
+	max-height: 100%; 
+	background-usage: #ffffff;
+	opacity: .6;
+} */
+
+header 	{
+	/* margin: 10%; */
+	
+	font-family: ethnocentric;
+	font-size: 60px;
+	usage: #ff0003;
+	/* background-usage: #600d0d; */
+	height: 95px;
+	/* border: 6px outset #A44058; */
+	border-radius: 15px;
+	/* usage: rgb(0, 0, 0); */
+	/* background-usage: rgb(51, 51, 51); */
+	/* text-shadow: rgb(255, 255, 255) 0px -1px 4px, rgb(255, 255, 0) 0px -2px 10px, rgb(255, 128, 0) 0px -10px 20px, red 0px -18px 40px; */
+	text-align: center;
+	margin: 30px;
+	/* background: #A40000;
+background: -moz-linear-gradient(left, #A40000 0%, #2388CB 50%, #000000 100%);
+background: -webkit-linear-gradient(left, #A40000 0%, #2388CB 50%, #000000 100%);
+background: linear-gradient(to right, #A40000 0%, #2388CB 50%, #000000 100%); */
+	
+}
+
+.footer 	{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 0;
+	font-family: ethnocentric;
+	font-size: 60px;
+	usage: #ff0003;
+	background-usage: #600d0d;
+	height: 95px;
+	/* border: 6px outset #A44058; */
+	/* border-radius: 15px; */
+	/* usage: rgb(0, 0, 0); */
+	/* background-usage: rgb(51, 51, 51); */
+	/* text-shadow: rgb(255, 255, 255) 0px -1px 4px, rgb(255, 255, 0) 0px -2px 10px, rgb(255, 128, 0) 0px -10px 20px, red 0px -18px 40px; */
+	text-align: center;
+	background: #A40000;
+background: -moz-linear-gradient(left, #A40000 0%, #2388CB 50%, #000000 100%);
+background: -webkit-linear-gradient(left, #A40000 0%, #2388CB 50%, #000000 100%);
+background: linear-gradient(to right, #A40000 0%, #2388CB 50%, #000000 100%);
+	
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+
+/* Nav, Section and divs */
+
+/*-----------------------------------------------------------------------------------*/
+
+
+
+div	{
+	margin: auto;
+	padding-left: 25%;
+	padding-right: 25%;
+	size: 100%;
+	usage: #ffff99;
+	text-align: center;
+	/* display: inline-table; */
+}
+
+ 
+ 
+ li 	{
+	 display: block;
+	 font-size: 25px;
+	 margin-top: 25px;
+	 
+	 
+	 padding-top: 5%;
+	 padding-bottom: 75px;
+	/* text-shadow: rgb(255, 255, 255) 0px -1px 4px, rgb(255, 255, 0) 0px -2px 10px, rgb(255, 128, 0) 0px -10px 20px, red 0px -18px 40px; */
+ }
+ 
+.list2 {
+    display: inline;
+    font-size: 25px;
+    font-usage: rgb(251 255 171/ 50%);
+}
+
+.paragraphACME {
+	font-size: 45px;
+	usage: #fbffab;
+	text-shadow: #ffffff;
+	text-align: center;
+}
+ 
+.box {
+    width: 300px;
+	height: 85%;
+    padding: 5px;
+    margin: 7px auto;   
+    text-align: center;
+	background-usage: 
+}
+.div3 	{
+	background-usage: #000000;
+	opacity: 60%;
+}
+
+.div4 	{
+	background-usage: #011359;
+}
+section	{
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	padding: 25px;
+	text-align: center;
+	font-usage: #ffff99; 
+	
+	
+}
+
+
+.button {
+  border: none;
+  usage: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+.button1 {background-usage: #4CAF50;} /* Green */
+.button2 {background-usage: #008CBA;} /* Blue */
+
+
+ .sect2 	{
+	
+	padding-left: 30%;
+	
+} 
+
+
+nav 	{
+	margin-bottom: 5%;
+	margin-top: 5%;
+	background-usage: #000000;
+	
+}
+
+
+.article {	align: center;
+			
+			background-usage: 
+			usage: rgb(255, 255, 255);
+			/* text-shadow: rgb(255, 255, 255) 0px -1px 4px, rgb(255, 255, 0) 0px -2px 10px, rgb(255, 128, 0) 0px -10px 20px, red 0px -18px 40px; */
+			text-align: center;
+}
+
+input {	padding-bottom: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-left: 40px;
+		text-align: right;
+		font-usage: yellow;
+		width: 20%;
+		text-align: center;
+		font-size: 50px;
+		
+}
+
+
+.uk-icon {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    overflow: visible;
+    font: inherit;
+    usage: #ffffff;
+    text-transform: none;
+    padding: 0;
+    background-usage: #05edec;
+    display: inline-block;
+    
+    line-height: 0;
+}
+
+
+
+.uk-dropdown-nav {
+  font-size: 20px;
+}
+
+.uk-card-default 	{background-usage: #243643;
+    usage: #000000;
+    box-shadow: 0 5px 15px rgb(156 224 236 / 30%);
+
+}
+
+.uk-subnav > * > :first-child {
+    display: flex;
+    align-items: center;
+    column-gap: 0.25em;
+    usage: #999;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.1s ease-in-out;
+    transition-property: usage, background-usage;
+}
+
+
+}
+
+.box {
+    width: 300px;
+    padding: 5px;
+    margin: 7px auto;   
+    text-align: center;
+	font-size: 45px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/* Images and links */
+
+/*-----------------------------------------------------------------------------------*/
+
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+
+/* Link Properties */
+
+/*-----------------------------------------------------------------------------------*/
+
+
+/*-----Unvisited Link--*/
+
+a 	{
+	outline: none;
+	text-decoration: none;
+	font-family: sans-serif;
+	padding: 30px;
+	usage: #4ef0e9;
+}
+
+
+
+/*-----------------------------------------------------------------------------------*/	
+
+/* Headings, links, paragraphs and formatting  */
+
+/*-----------------------------------------------------------------------------------*/
+
+/*
+ol	{
+	height: auto;
+	width: auto;
+	text-align: center;
+	
+}
+
+*/
+
+.ulproductList
+ {
+  /* padding-left: 0; */
+  /* height: auto; */
+	width: auto;
+	text-align: left;
+}
+
+.u2productField
+ {
+  /* padding-left: 0; */
+  /* height: auto; */
+	width: auto;
+	text-align: left;
+}
+
+*/
+.h2 	{
+		font-family: economica, Arial, verdana;
+		usage: #ffff99;
+		font-size: 60px;
+		text-align: center;
+}
+
+
+
+
+.uk-text-lead	{
+	font-family: ethnocentric;
+	font-size: 250%;
+	font-family: Economica;
+	usage: #6eede7;
+	filter: brightness(200);
+}
+
+.darker 	{
+		background-usage: #000000;
+		opacity: 0.6;
+}
+h1	{
+	font-family: economica;
+	font-size: 66px;
+	usage: rgb(255, 255, 255);
+	text-shadow: rgb(255, 255) 0px -1px 4px, rgb(255, 0) 0px -2px 10px, rgb(255, 0) 0px -10px 20px, red 0px -18px 40px;
+	text-align: center;
+	margin-top: 10%;
+	
+}
+
+.head1	{
+	font-family: economica;
+	font-size: 90px;
+	usage: rgb(255, 255, 255);
+	text-shadow: rgb(255, 255, 255) 0px -1px 4px, rgb(255, 255, 0) 0px -2px 10px, rgb(255, 128, 0) 0px -10px 20px, red 0px -18px 40px;
+	text-align: center;
+}
+	
+
+.subheading1 	{
+	font-size: 40px;
+	usage: #ead2b5;	
+}
+.text-block 	{
+	position: absolute;
+}
+
+#bandpic 	{
+	background: url("../image/band(1).jpg");
+}
+
+
+h3 	{
+		font-family: economica, Arial, verdana;
+		usage: #ffcd7f;
+		font-size: 45px;
+		text-align: center;
+}
+		
+
+
+/*-----------VIDEO STYLES AND ATTRIBUTES-------------*/
+
+.left {
+	padding: 30px;
+	text-align: left;
+	float: inherit;
+	border: 6px outset #A44058;
+	border-radius: 10px;
+}	
+
+
+/*---------------LISTS---------------------------*/
+
+
+ol#olnew	{
+font-size: 35px;
+font-family: economica;
+
+usage: #e1415f;
+width: 60%;
+
+background-usage: #000000;
+
+}
+
+/*------------TABLES------------------------------*/
+table#table1 {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+	background-usage: #a2c6d8;
+  }
+
+td 	{
+	border: 15px solid;
+	border-usage: #ffffff;
+	height: 300px;
+	width: 300px;
+	text-align: center;
+}
+
+tr 	{
+	border: 10px;
+	border-usage: #ffffff;
+	padding: 30px;
+}
+
+/*_________Don't Like My CSS?________________
+
+Check it for yourself:
+
+http://jigsaw.w3.org/css-validator/validator$link
+
+___________________________________________*/

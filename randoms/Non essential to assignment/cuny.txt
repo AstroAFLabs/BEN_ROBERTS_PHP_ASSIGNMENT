@@ -1,0 +1,4 @@
+<button type="button" background-color="green" name="newUser" value="New User"/>
+<a href="staffDetailsUpdate.php" >
+</a>
+</button>
